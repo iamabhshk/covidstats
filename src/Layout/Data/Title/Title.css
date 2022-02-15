@@ -1,0 +1,29 @@
+.title {
+  margin-top: 15%;
+  text-align: center;
+}
+@media (max-width: 1199.98px) {
+  .title {
+    margin-top: 10rem;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+  color: rgb(40, 40, 40);
+}
+@media (max-width: 1199.98px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+*/ h1::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 0.6rem;
+  border-radius: 20px;
+  background-color: #18851a;
+}
