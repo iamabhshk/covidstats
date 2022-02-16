@@ -24,6 +24,7 @@ const graph = (props) => {
     <div>
       <img
         className="graph img-fluid"
+        alt="data"
         src={`https://corona.dnsforfamily.com/graph.png?c=${countryCode(
           props.country
         )}`}

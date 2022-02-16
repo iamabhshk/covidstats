@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Home from "./Home/Home";
 import Data from "./Data/Data";
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { connect } from "react-redux";
 
 class Layout extends Component {
